@@ -1,0 +1,24 @@
+{{>header}}
+<main class="container w-75 m-auto mt-5 pt-5">
+    <h1 class="text-center my-5">Tasks Repo</h1>
+    <table class="table table-dark table-striped text-center">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{showtask.id}}</td>
+                <td>{{showtask.title}}</td>
+                <td>{{showtask.content}}</td>
+                <td>{{showtask.status}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="/" class="btn btn-primary">Back to menu</a>
+</main>
+{{>footer}}
